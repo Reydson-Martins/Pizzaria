@@ -11,3 +11,6 @@ yarn add install @prisma/client
 # config
   - Configurar as variaveis do banco .env
   - Configurar o prisma client 
+
+# inicializar o docker com o banco de dados
+  - comand:  docker compose up -d

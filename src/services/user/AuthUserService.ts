@@ -8,7 +8,7 @@ interface AuthRequest {
 
 class AuthUserService{
   async execute({email, password}: AuthRequest){
-    console.log(email,password)
+    //console.log(email,password)
     const user = await prismaClient.user.findFirst({
       where:{
         email: email
