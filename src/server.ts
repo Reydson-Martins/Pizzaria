@@ -33,7 +33,8 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 })
 
 app.listen({
-  port: process.env.PORT
+  port: process.env.PORT,
+  host: '0.0.0.0',
 
 },
 () => {console.log('server running')
